@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <form>
+        <fildset>
+            <legend>Dados</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome...">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Digite seu email...">
+    <br>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
+    <br>
+    <label foe="area">comentarios:</label>
+</fildset>
+    <br>
+    <textarea name="area" id="area" cols="30" rows="5"></textarea>
+    <br>
+    <label for="opcao"> qual sua cor favorita?:</label>
+     <input type="radio" name="opcao">azul
+     <input type="radio" name="opcao">vermelho
+     <input type="radio" name="opcao">amarelo 
+        <br>
+     <label for="opcao"> qual seu animal favorito?:</label>
+     <input type="radio" name="opcao2">gato
+     <input type="radio" name="opcao2">cachorro
+     <input type="radio" name="opcao2">zebra
+     <input type="radio" name="opcao2">peixe frito
+     <br> 
+     <label for="estado">estado:</label>
+     <select name="estado" id="estado">
+     <option value="sc">Santa Catarina</option>
+     <option value="sp">sao paulo</option>
+     <option value="rs">rio grande do sul</option>
+     <option value="rj">rio de janeiro</option>
+     <option value="mt">mato grosso do sul</option>
+    </select>
+    <br>
+    <br>
+    <label for="itens" >escolha os itens de informatica:</label>
+<br>
+<br>
+<input type="checkbox" name="monitor" id="monitor">monitor
+     <br>
+     <input type="checkbox" name="teclado" id="teclado">teclado
+     <br>
+     <input type="checkbox" name="mouse" id="mouse">mouse
+<br>
+<input type="checkbox" name="RTX4090" id="RTX4090">RTX4090 
+<br>
+<br>
+<input type="button" value="botao simples">
+<input type="submit" value="enviar">
+<input type="reset" value="limpar o formulario">
+
+</form>
+</body>
+</html>
