@@ -1,0 +1,50 @@
+*{
+    font-family: 'times new rom';
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+body {
+    background:paleturquoise;
+
+}
+
+p{
+    color:blue;
+    font-famyli: sans-serif;
+    background-color: brown;
+    padding: 6px;
+}
+.container{
+    background:pink;
+    width: 50px;
+    height: 50px;
+}
+
+
+#rodape{
+    background:palegreen;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#primeiro{
+    background-color: goldenrod;
+    width: 300px;
+    height: 300px;
+    border:10px dotted pink;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+#segundo{
+    background-image: url("../img/illumi.jpg");
+    background-color:purple;
+    background-size: 500px;
+    width: 500px;
+    height: 500px;
+}
