@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+   
+      
+  }
+  body {
+    color: black;
+     font-size: 12px;
+        margin: 500 auto; 
+        height: 500px;
+  }
+
+  input[type="text"], textarea {
+    border-radius: 5px;
+    
+  }
+
+.form{
+    position: absolute;
+    left: 550px;
+}
+/* cor onde n ta vazio acho */
+fieldset:not(:empty) {
+    background-color: rgb(255, 254, 254);
+  }
+  fieldset {
+    border-radius: 10px;
+  }
+  
+  fieldset input[type="text"],
+  fieldset input[type="radio"],
+  fieldset input[type="checkbox"],
+  fieldset textarea {
+    border-radius: 5px;
+  }
+.logo{
+    position: absolute;
+    width: 100px;
+    top: 350px;
+    left: 150px;
+    right: 700px;
+  }
+  
+  
+  
+    

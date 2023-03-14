@@ -1,0 +1,41 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.conteudo{
+    background-color: aliceblue;
+}
+
+.card{
+    width: 200px;
+    background-color: powderblue;
+   margin: 10px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+}
+
+.card1, .card2, .card3, .card4{
+
+    display: inline;
+    width: 400px;
+    height: 500px;
+}
+
+.card1{
+    background-color: rgb(221, 160, 191);
+}
+
+.card2{
+    background-color:palegoldenrod;
+}
+
+.card3{
+    background-color:paleturquoise;
+}
+
+.card4{
+    background-color: palegreen;
+}
