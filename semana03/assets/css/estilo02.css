@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    float: left;
+}
+
+article{
+    position: absolute;
+    TOP: 150PX;
+    left: 150px;
+    background-color: dodgerblue;
+
+}
+
+.containe{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.limpafloat{
+    clear: left;
+    
+
+}
